@@ -70,3 +70,5 @@ CREATE TABLE products
         (productName, departmentName, price, stockQuantity)
     values
         ('Glock 23', 'Firearms', 675, 8);
+
+        
