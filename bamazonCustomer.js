@@ -39,3 +39,34 @@ function queryAllProducts() {
     console.log("-----------------------------------");
   });
 }
+
+// function productIdSearch() {
+//   inquirer
+//     .prompt({
+//       name: "id",
+//       type: "input",
+//       message: "What product id would you like to buy?"
+//     })
+//     .then(function(answer) {
+//       console.log(answer.id);
+//       connection.query(
+//         "SELECT * FROM products WHERE ?",
+//         { id: answer.id },
+//         function(err, res) {
+//           console.log(
+//             "id: " +
+//               res[0].id +
+//               " || Product Name: " +
+//               res[0].productName +
+//               " || Department Name: " +
+//               res[0].departmentName +
+//               " || Price: " +
+//               res[0].price +
+//               " || Quantity: " +
+//               res[0].stockQuantity
+//           );
+//           runSearch();
+//         }
+//       );
+//     });
+// }
