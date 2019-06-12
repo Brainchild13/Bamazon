@@ -12,16 +12,16 @@ CREATE TABLE products
     -- Creates a numeric column called "id" which will automatically increment its default value as we create new rows --
     id INTEGER(11)
     AUTO_INCREMENT NOT NULL,
-  -- Makes a string column called "product_name" which cannot contain null --
+  -- Makes a string column called "productName" which cannot contain null --
   productName VARCHAR
     (30) NOT NULL,
-  -- Makes a sting column called "department_name" --
+  -- Makes a sting column called "departmentName" --
   departmentName VARCHAR
     (30),
   -- Makes an numeric column called "price" --
   price DECIMAL
     (10,2),
-  -- Makes an numeric column called "stock_quantity" --
+  -- Makes an numeric column called "stockQuantity" --
   stockQuantity INTEGER
     (10),
   -- Sets id as this table's primary key which means all data contained within it will be unique --
